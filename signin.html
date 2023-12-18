@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign In</title>
+</head>
+<body>
+<script>
+    let login = prompt("username",'')
+    let message = (login=='Employee')?
+        'Hello':
+        (login =='Director')?
+            'Greeting':
+            (login=='')?
+                'No logn in':
+                '';
+                alert(message);
+</script>
+</body>
+</html>
